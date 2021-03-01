@@ -8,12 +8,6 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
-
 call plug#begin()
 " Files Manipulator
 Plug 'ctrlpvim/ctrlp.vim'
@@ -28,6 +22,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'arcticicestudio/nord-vim'
 " Git Plugins
 Plug 'tpope/vim-fugitive'
+Plug 'mhinz/vim-signify'
 call plug#end()
 
 " Load colorscheme to be nord
