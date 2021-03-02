@@ -22,6 +22,7 @@ source $HOME/.config/nvim/plugin-config/ctrl_p.vim
 source $HOME/.config/nvim/plugin-config/coc.vim
 source $HOME/.config/nvim/plugin-config/ack.vim
 source $HOME/.config/nvim/plugin-config/pear_tree.vim
+source $HOME/.config/nvim/plugin-config/start_screen.vim
 
 " Load colorscheme to be nord
 colorscheme nord
