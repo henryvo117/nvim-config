@@ -1,6 +1,8 @@
 set relativenumber
 set nu
 set mouse=a
+set list
+set listchars:eol:¬
 filetype plugin indent on
 " show existing tab with 4 spaces width
 set tabstop=4
@@ -26,4 +28,3 @@ source $HOME/.config/nvim/plugin-config/start_screen.vim
 
 " Load colorscheme to be nord
 colorscheme nord
-
