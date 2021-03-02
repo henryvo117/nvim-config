@@ -19,4 +19,3 @@ Plug 'rhysd/vim-clang-format'
 Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
 call plug#end()
-
