@@ -18,4 +18,6 @@ let g:startify_bookmarks = [
             \ '$HOME/EPITA/S6/prog/projects/cpp_workshop'
             \ ]
 
-let g:startify_change_to_vcs_root = 1
+let g:startify_change_to_vcs_root = 0
+let g:startify_session_persistence = 1
+let g:startify_enable_special = 0
