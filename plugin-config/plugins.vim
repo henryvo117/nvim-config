@@ -1,6 +1,7 @@
 call plug#begin()
 " Files Manipulator
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'airblade/vim-rooter'
 " RipGrep
 Plug 'mileszs/ack.vim'
 " Vim Autocompletion (LSP)
