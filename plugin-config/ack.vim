@@ -6,7 +6,11 @@
 " --vimgrep -> Needed to parse the rg response properly for ack.vim
 " --type-not sql -> Avoid huge sql file dumps as it slows down the search
 " --smart-case -> Search case insensitive if all lowercase pattern, Search case sensitively otherwise
-let g:ackprg = 'rg --vimgrep --type-not sql --smart-case'
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep --smart-case'
+else
+  let g:ackprg = 'rg --vimgrep --type-not sql --smart-case'
+endif
 
 " Auto close the Quickfix list after pressing '<enter>' on a list item
 let g:ack_autoclose = 1
