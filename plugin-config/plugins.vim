@@ -2,7 +2,7 @@ call plug#begin()
 " Files Manipulator
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'airblade/vim-rooter'
-" RipGrep
+" RipGrep & Fuzzy Finder
 Plug 'mileszs/ack.vim'
 " Vim Autocompletion (LSP)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

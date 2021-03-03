@@ -12,7 +12,6 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
-
 " Let leader key to be space
 let mapleader = " "
 
@@ -26,6 +25,5 @@ source $HOME/.config/nvim/plugin-config/coc.vim
 source $HOME/.config/nvim/plugin-config/ack.vim
 source $HOME/.config/nvim/plugin-config/pear_tree.vim
 source $HOME/.config/nvim/plugin-config/start_screen.vim
-
 " Load colorscheme to be nord
 colorscheme nord
